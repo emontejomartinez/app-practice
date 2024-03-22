@@ -8,6 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent {
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', 'This is a simply test', 'https://images.pexels.com/photos/1556688/pexels-photo-1556688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+    new Recipe('A Test Recipe', 'This is a simply test', 'https://cdn-icons-png.flaticon.com/512/5403/5403020.png'),
+    new Recipe('A Test Recipe', 'This is a simply test', 'https://cdn-icons-png.flaticon.com/512/5403/5403020.png')
   ];
 }
